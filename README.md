@@ -21,5 +21,10 @@ my typing and letting me enjoy the overall experience of coding.
 * Custom keybinds
 
 ## Plugins
-
+<!--Need to list plugins...-->
 * 
+
+## TODO
+
+* Install `jdtls` for auto-complete for Java.
+* Install a plugin for Gradle.
