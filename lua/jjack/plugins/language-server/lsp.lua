@@ -37,43 +37,10 @@ return {
 				vim.keymap.set('n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
 				vim.keymap.set('n', 'gs', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
 				vim.keymap.set('n', '<F2>', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
-				vim.keymap.set({ 'n', 'x' }, '<F3>', '<cmd>lua vim.lsp.buf.format({async = true})<CR>',
+				vim.keymap.set({ 'n', 'x' }, '<F3>', '<cmd>lua vim.lsp.buf.format({ async = true })<CR>',
 					opts)
 				vim.keymap.set('n', '<F4>', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
 			end,
 		})
-
-		require('mason').setup({})
-		require('mason-lspconfig').setup({
-			ensure_installed = { 'lua_ls' },
-			handlers = {
-				function(server_name)
-					if server_name == 'lua_ls' then
-						require('lspconfig').lua_ls.setup({
-							settings = {
-								Lua = {
-									runtime = {
-										version = 'LuaJIT',
-									},
-									diagnostics = {
-										globals = { 'vim' },
-									},
-									workspace = {
-										library = vim.api.nvim_get_runtime_file(
-										'', true),
-										checkThirdParty = false,
-									},
-									telemetry = {
-										enable = false,
-									},
-								},
-							},
-						})
-					else
-						require('lspconfig')[server_name].setup({})
-					end
-				end,
-			},
-		})
-	end
+	end,
 }
