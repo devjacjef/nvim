@@ -1,3 +1,5 @@
+-- Config file for nvim-lspconfig 
+-- For auto-completion and other features.
 return {
 	'neovim/nvim-lspconfig',
 	cmd = { 'LspInfo', 'LspInstall', 'LspStart' },
