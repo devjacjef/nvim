@@ -28,3 +28,5 @@ my typing and letting me enjoy the overall experience of coding.
 
 * Install `jdtls` for auto-complete for Java.
 * Install a plugin for Gradle.
+* Setup LSP for python properly.
+* Tidy up lsp.lua
