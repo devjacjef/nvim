@@ -8,7 +8,8 @@ The following sections detail how to setup this project.
 
 ```shell
 git clone https://github.com/devjacjef/nvim ~/.config/nvim
-make install
+cd ~/.config/nvim
+make install # runs an install script to compile and install neovim from source then attempts to install as a .deb
 ```
 
 # References
