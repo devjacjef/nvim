@@ -1,8 +1,34 @@
 {
   "plugins": {
+    "blink.cmp": {
+      "rev": "cd79f572971c58784ca72551af29af3a63da9168",
+      "src": "https://github.com/saghen/blink.cmp"
+    },
+    "fzf-lua": {
+      "rev": "b2c0603216adb92c6bba81053bc996d7ae95b77a",
+      "src": "https://github.com/ibhagwan/fzf-lua.git"
+    },
     "mason.nvim": {
       "rev": "8e921c2b68571e978db5d4d3fef9c9a7f8755473",
       "src": "https://github.com/mason-org/mason.nvim"
+    },
+    "nvim-autopairs": {
+      "rev": "59bce2eef357189c3305e25bc6dd2d138c1683f5",
+      "src": "https://github.com/windwp/nvim-autopairs.git"
+    },
+    "nvim-treesitter": {
+      "rev": "ecdae44baefeffceade8b0c752d80ececad28e76",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter.git",
+      "version": "'main'"
+    },
+    "nvim-treesitter-textobjects": {
+      "rev": "851e865342e5a4cb1ae23d31caf6e991e1c99f1e",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects",
+      "version": "'main'"
+    },
+    "which-key.nvim": {
+      "rev": "3aab2147e74890957785941f0c1ad87d0a44c15a",
+      "src": "https://github.com/folke/which-key.nvim.git"
     }
   }
 }

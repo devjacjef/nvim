@@ -18,3 +18,4 @@ make install # runs an install script to compile and install neovim from source 
 - [Minimal Neovim config v0.12 edition](https://vieitesss.github.io/posts/Neovim-new-config/)
 - [Native LSP in Neovim 0.12](https://dotfiles.substack.com/p/native-lsp-in-neovim-012)
 - [Refreshing your Neovim config for 0.12.0](https://justinhj.github.io/2026/04/06/refreshing-your-neovim-config-for-0-12-0.html)
+- [Neovim syntax highlighting with Tree-sitter](https://tduyng.com/blog/neovim-highlight-syntax/)

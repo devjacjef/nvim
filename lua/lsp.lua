@@ -1,6 +1,8 @@
 -- Language Server Configuration
-
-vim.lsp.enable('lua_ls')
+vim.lsp.enable({
+    "lua_ls",
+    "intelephense"
+})
 
 vim.api.nvim_create_autocmd("LspAttach", {
   group = vim.api.nvim_create_augroup("lsp_completion", { clear = true }),

@@ -1,5 +1,9 @@
 #!/bin/sh
 
+#
+# TODO: Add guards to save time/prevent accidental reinstall
+#
+
 # Cloning Neovim to /tmp/
 git clone https://github.com/neovim/neovim /tmp/nvim
 
